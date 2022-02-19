@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitória modas</title>
+    <link rel="shortcut icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/suporte.css">
+
+</head>
+<body>
+    
+        <header>
+            <a href="../index.html"><img class="logo" src="../logo/logo-vitoria-modas.png" alt="logo-vitoria-modas" width="150px"></a>
+            <nav id="nav">
+                <button id="btn">Menu <img id="menufoto" src="../logo/menu.png" alt="" width="20px"></button>
+                <ul id="lista">
+                    <li><a href="moda-feminia.html">Moda Femenina</a></li>
+                    <li><a href="moda-masculina.html">Moda Maculina</a></li>
+                    <li><a href="moda-praia.html">Moda Praia</a></li>
+                    <li><a href="suporte.html">Suporte</a></li>
+                </ul>
+            </nav>
+        </header>
+        <fieldset id="corpo"><legend class="formulario">Formulário</legend>
+            <fieldset class="dados" name="Dados Pessoais"><legend>Dados Pessoais</legend>
+            <input id="nome" type="text" name="nome" placeholder="Nome Completo..."><label for="name">Nome</label>
+            <br>
+            <input type="date" name="data" id="data"><label for="data">Data de Nascimento</label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="Digite seu email..."><label for="email">Email</label>
+            <input type="password" name="senha" id="senha"><label for="senha">Senha</label>
+            </fieldset>
+            <fieldset class="sexo"><legend>Sexo</legend>
+                <input type="radio" name="opicao" id="xy"><label for="masculino">Masculino</label>
+                <br>
+                <input type="radio" name="opicao" id="xx" required><label for="feminino" >Feminino</label>
+                <br>
+                <input type="radio" name="opicao" id="xz" value="Outros"><label for="outros">Outros</label>
+            </fieldset>
+            <fieldset class="faca-moda"><legend>Faça sua Moda</legend>
+            <input type="file" name="file" id="file"><label id="moda" for="file">Selecione a Imagem da roupa desejada.</label>
+            <br>
+            <br>
+            <label for="textarea" id="textareat">Descreva a sua moda</label>
+            <textarea name="textarea" id="area" cols="60" rows="10"placeholder='Fale um pouco mais de você...'></textarea>
+            <br>
+            
+            
+            </fieldset>
+        </fieldset>
+    <div class="enviar">
+        <input type="submit" name="enviar" id="enviar">
+    </div>
+    <script src="../javascript.js"></script>
+</body>
+</html>
